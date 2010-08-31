@@ -1,0 +1,8 @@
+Hello
+
+{% for s in stocks %}
+<div>{{s}}</div>
+{% for q in s.quotes %}
+<div>{{q}}</div>
+{% endfor %}
+{% endfor %}
